@@ -2,9 +2,10 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that reads Confluence pages and provides intelligent answers through a web interface. Built with LangChain, OpenAI, and TypeScript.
 
+
 ## Demo
 
-https://github.com/user-attachments/assets/demo.mp4
+https://github.com/ashok9315-cmyk/confluence-rag-chatbot-typescript/raw/master/demo.mp4
 
 *Watch the chatbot in action answering questions about Confluence documentation*
 
