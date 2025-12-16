@@ -5,7 +5,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that reads Confluence pages and p
 
 ## Demo
 
-<video src="https://github.com/ashok9315-cmyk/confluence-rag-chatbot-typescript/raw/master/demo.mp4" controls></video>
+![Demo Video](demo.mp4)
 
 *Watch the chatbot in action answering questions about Confluence documentation*
 
