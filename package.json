@@ -1,0 +1,41 @@
+{
+  "name": "confluence-rag-chatbot-typescript",
+  "version": "1.0.0",
+  "description": "RAG chatbot for Confluence pages using LangChain",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "confluence",
+    "rag",
+    "chatbot",
+    "langchain",
+    "openai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.15",
+    "@langchain/core": "^0.3.20",
+    "@langchain/openai": "^0.3.14",
+    "langchain": "^0.3.6",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  },
+  "overrides": {
+    "@langchain/core": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}

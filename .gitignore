@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Environment variables and sensitive files
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+credentials.json
+config.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.sublime-*
+
+# Vector store data
+vector_store
+*.index
+*.pkl
+
+# Temporary files
+.cache
+.temp
+tmp/

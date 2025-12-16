@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confluence RAG Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h1>🤖 Confluence Knowledge Assistant</h1>
+                <p class="subtitle">Ask questions about your Confluence documentation</p>
+                <div id="status" class="status">
+                    <span class="status-indicator"></span>
+                    <span id="status-text">Initializing...</span>
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-message">
+                    <h2>Welcome! 👋</h2>
+                    <p>I'm your Confluence knowledge assistant. I can help you find information from your Confluence pages.</p>
+                    <p>Try asking me something like:</p>
+                    <ul>
+                        <li>"What projects are documented?"</li>
+                        <li>"Tell me about the team structure"</li>
+                        <li>"What are the key processes?"</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="Ask a question about your Confluence pages..."
+                        rows="1"
+                    ></textarea>
+                    <button id="sendButton" class="send-button" disabled>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M2 10L18 3L12 10L18 17L2 10Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+                <button id="clearButton" class="clear-button">Clear History</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
