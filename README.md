@@ -5,7 +5,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that reads Confluence pages and p
 
 ## Demo
 
-![Demo Video](demo.mp4)
+![Demo](demo.gif)
 
 *Watch the chatbot in action answering questions about Confluence documentation*
 
